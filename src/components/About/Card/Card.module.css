@@ -1,0 +1,31 @@
+.wrapper {
+  width: 359px;
+  height: 377px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1.4px solid var(--color-grey);
+  border-radius: 14px;
+  padding: 35px 25px;
+}
+
+.rate {
+  font-size: 24px;
+  font-weight: 600;
+}
+.text {
+  font-size: 14px;
+  font-weight: 500;
+  opacity: 30%;
+}
+.btn {
+  width: 121px;
+  height: 43px;
+  border-radius: 23.5px;
+  border: 1px solid var(--color-primary);
+  background-color: var(--color-primary);
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 5px;
+  cursor: pointer;
+}

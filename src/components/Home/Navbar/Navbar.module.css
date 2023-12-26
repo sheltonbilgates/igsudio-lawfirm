@@ -1,0 +1,23 @@
+.btn {
+  width: 172px;
+  height: 47px;
+  border: 2px solid var(--color-white);
+  background-color: var(--color-black);
+  color: var(--color-white);
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 40px;
+  background-color: var(--color-black);
+}
+
+.logos {
+  display: flex;
+  gap: 20px;
+}

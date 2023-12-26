@@ -1,0 +1,38 @@
+.wrapper {
+  width: 344px;
+  height: 109px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 25px;
+  gap: 15px;
+}
+
+.wrapperSelected {
+  width: 344px;
+  height: 109px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 25px;
+  gap: 15px;
+  border-radius: 14px;
+  background-color: var(--color-primary);
+  .name {
+    color: var(--color-black);
+  }
+  .cases {
+    color: var(--color-black);
+  }
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.cases {
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 30%;
+}

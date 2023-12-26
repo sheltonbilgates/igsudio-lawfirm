@@ -1,0 +1,10 @@
+.wrapper {
+  display: flex;
+  gap: 45px;
+  cursor: pointer;
+}
+
+.wrapper > a {
+  text-decoration: none;
+  color: var(--color-white);
+}

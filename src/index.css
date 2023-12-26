@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --color-primary: #e3b748;
+  --color-secondary: #282828;
+  --color-white: #ffffff;
+  --color-black: #111111;
+  --color-grey: #474747;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+  overflow-x: hidden;
+}

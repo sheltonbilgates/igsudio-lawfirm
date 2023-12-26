@@ -1,0 +1,27 @@
+.wrapper {
+  width: 359px;
+  height: 368px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1.4px solid var(--color-grey);
+  border-radius: 14px;
+  padding: 35px 25px;
+  overflow: hidden;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.position {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.text {
+  font-size: 14px;
+  font-weight: 500;
+  opacity: 30%;
+}

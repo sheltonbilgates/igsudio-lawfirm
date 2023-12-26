@@ -1,0 +1,22 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  cursor: pointer;
+  padding-bottom: 80px;
+}
+
+.header {
+  font-size: 54px;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 50px 150px;
+  flex-wrap: wrap;
+}

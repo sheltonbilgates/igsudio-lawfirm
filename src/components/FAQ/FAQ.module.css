@@ -1,0 +1,27 @@
+.wrapper {
+  padding: 180px 280px;
+}
+
+.heading > h1 {
+  font-size: 54px;
+  font-weight: 600;
+}
+
+.mainData {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 30% 1fr;
+  gap: 250px;
+}
+
+.mainData > p {
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 30%;
+}
+
+.accordianAnswer {
+  color: var(--color-grey);
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+}
